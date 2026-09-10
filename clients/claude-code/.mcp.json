@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "kanzi-docs": {
+      "type": "http",
+      "url": "https://docs.mcp.kanzi.com/mcp"
+    },
+    "kanzi-api": {
+      "type": "http",
+      "url": "https://api.mcp.kanzi.com"
+    },
+    "kanzi-portal": {
+      "type": "http",
+      "url": "${KANZI_PORTAL_URL:-https://portal.kanzi.com}/api/mcp"
+    }
+  }
+}

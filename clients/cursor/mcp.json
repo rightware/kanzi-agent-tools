@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "kanzi-docs": {
+      "url": "https://docs.mcp.kanzi.com/mcp"
+    },
+    "kanzi-api": {
+      "url": "https://api.mcp.kanzi.com"
+    },
+    "kanzi-portal": {
+      "url": "https://portal.kanzi.com/api/mcp"
+    }
+  }
+}

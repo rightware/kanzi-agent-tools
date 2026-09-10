@@ -1,0 +1,11 @@
+# Generated from core/ by tools/build.mjs. Do not edit.
+# Append to ~/.codex/config.toml
+
+[mcp_servers.kanzi_docs]
+url = "https://docs.mcp.kanzi.com/mcp"
+
+[mcp_servers.kanzi_api]
+url = "https://api.mcp.kanzi.com"
+
+[mcp_servers.kanzi_portal]
+url = "https://portal.kanzi.com/api/mcp"

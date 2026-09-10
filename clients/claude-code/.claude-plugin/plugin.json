@@ -1,0 +1,19 @@
+{
+  "name": "kanzi",
+  "description": "Work with Kanzi from your AI assistant: search the documentation and API reference for any Kanzi version, and manage your Kanzi Portal account — licenses, software downloads, platform packages and support.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Rightware"
+  },
+  "homepage": "https://rightware.com",
+  "repository": "https://github.com/rightware/kanzi-agent-tools",
+  "license": "Apache-2.0",
+  "keywords": [
+    "kanzi",
+    "automotive",
+    "hmi",
+    "embedded",
+    "portal",
+    "documentation"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "kanzi-agent-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Build for the generated client configuration in this repository",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "check": "node tools/build.mjs --check",
+    "test": "node --test tools/build.test.mjs"
+  }
+}

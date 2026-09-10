@@ -1,0 +1,42 @@
+{
+  "_comment": "Kanzi MCP server registry. Every generated file derives from this.",
+  "servers": [
+    {
+      "name": "kanzi-docs",
+      "origin": "https://docs.mcp.kanzi.com",
+      "path": "/mcp",
+      "transport": "http",
+      "auth": "none",
+      "summary": "The Kanzi documentation, for any version",
+      "acceptsVersionArgument": true,
+      "userScoped": false,
+      "displayName": "Kanzi Documentation MCP server"
+    },
+    {
+      "name": "kanzi-api",
+      "origin": "https://api.mcp.kanzi.com",
+      "path": "",
+      "transport": "http",
+      "auth": "none",
+      "summary": "The Kanzi API reference, for any version",
+      "acceptsVersionArgument": true,
+      "userScoped": false,
+      "displayName": "Kanzi API MCP server"
+    },
+    {
+      "name": "kanzi-portal",
+      "origin": "https://portal.kanzi.com",
+      "path": "/api/mcp",
+      "originOverrideEnv": "KANZI_PORTAL_URL",
+      "regions": {
+        "cn": "https://portal.kanzi.cn"
+      },
+      "transport": "http",
+      "auth": "oauth",
+      "summary": "Your own Portal account: licenses, downloads, platform packages, support tickets",
+      "acceptsVersionArgument": false,
+      "userScoped": true,
+      "displayName": "Kanzi Portal MCP server"
+    }
+  ]
+}
