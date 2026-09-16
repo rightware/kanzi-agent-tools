@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Generates every client artifact from core/. Adding a client means adding one
-// file under tools/clients/ — no edits to this script.
+// file under tools/clients/, with no edits to this script.
 //
 //   node tools/build.mjs            regenerate generated files
 //   node tools/build.mjs --check    fail if generated files differ from core/

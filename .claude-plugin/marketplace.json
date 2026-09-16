@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "kanzi",
-      "description": "Work with Kanzi from your AI assistant: search the documentation and API reference for any Kanzi version, and manage your Kanzi Portal account — licenses, software downloads, platform packages and support.",
+      "description": "Work with Kanzi from your AI assistant: search the documentation and API reference for any Kanzi version, and manage your Kanzi Portal account (licenses, software downloads, platform packages and support).",
       "version": "0.1.0",
       "source": "./clients/claude-code",
       "category": "knowledge"
