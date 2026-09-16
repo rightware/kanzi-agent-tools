@@ -29,12 +29,12 @@ export function files({ meta, servers, playbooks, agentsMd, expandableUrl, yaml 
 
     // Carries the routing table and the ground rules, which apply to every request.
     [`skills/${meta.name}/SKILL.md`,
-      `---\ndescription: ${yaml(`Core rules for working with ${meta.displayName}: which tool handles which kind of request, and how to avoid guessing version-specific or license-specific answers. Use whenever the user is working on a ${meta.displayName} project.`)}\n---\n\n${agentsMd}`],
+      `---\nname: ${yaml(meta.name)}\ndescription: ${yaml(`Core rules for working with ${meta.displayName}: which tool handles which kind of request, and how to avoid guessing version-specific or license-specific answers. Use whenever the user is working on a ${meta.displayName} project.`)}\n---\n\n${agentsMd}`],
   ];
 
   for (const p of playbooks) {
     out.push([`skills/${p.name}/SKILL.md`,
-      `---\ndescription: ${yaml(p.description)}\n---\n\n${p.body}`]);
+      `---\nname: ${yaml(p.name)}\ndescription: ${yaml(p.description)}\n---\n\n${p.body}`]);
   }
   return out;
 }

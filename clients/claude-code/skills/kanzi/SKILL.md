@@ -1,4 +1,5 @@
 ---
+name: "kanzi"
 description: "Core rules for working with Kanzi: which tool handles which kind of request, and how to avoid guessing version-specific or license-specific answers. Use whenever the user is working on a Kanzi project."
 ---
 
