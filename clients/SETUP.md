@@ -4,8 +4,8 @@
 
 | Server | Registered as | What it gives you | Version argument | Sign-in |
 |---|---|---|---|---|
-| Kanzi Documentation MCP server | `kanzi-docs` | The Kanzi documentation, for any version | Yes | Not needed |
-| Kanzi API MCP server | `kanzi-api` | The Kanzi API reference, for any version | Yes | Not needed |
+| Kanzi Documentation MCP server | `kanzi-docs` | The Kanzi documentation for any version: guides, tutorials, best practices, and how things work | Yes | Not needed |
+| Kanzi API MCP server | `kanzi-api` | The Kanzi API reference for any version: exact signatures, includes, type hierarchies, and version diffs | Yes | Not needed |
 | Kanzi Portal MCP server | `kanzi-portal` | Your own Portal account: licenses, downloads, platform packages, support tickets | No | Once, in a browser |
 
 | Server | URL |

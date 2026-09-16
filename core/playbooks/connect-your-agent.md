@@ -18,7 +18,9 @@ Use `{{PORTAL_CN_ORIGIN}}` as the Portal origin. Where an assistant expands envi
 
 ## Choosing where to look
 
-- How Kanzi works, or what an API does: the documentation and API reference servers. Pass the user's Kanzi version.
+- How Kanzi works, why it behaves as it does, or how to carry out a task: the documentation server. Pass the user's Kanzi version.
+- An exact API fact — a signature or its overloads, which header or import to use, what a type derives from, whether something is deprecated, or what changed between versions: the API reference server. Pass the user's Kanzi version.
+- Both servers hold the API reference, so neither is simply "the API one". The documentation server holds it as prose and answers questions about it; the API reference server returns the structured records. Choose on the shape of the answer the user needs, not on whether the subject is an API. With only one of the two registered, use it and say which part of the answer it cannot cover.
 - What the user has, may download, or is licensed for: the Portal server.
 - Changing a project's dependencies: Kanzi Package Manager and Conan, not these servers.
 - Changing a Kanzi project itself: Kanzi Studio, not these servers.

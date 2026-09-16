@@ -7,7 +7,7 @@
       "path": "/mcp",
       "transport": "http",
       "auth": "none",
-      "summary": "The Kanzi documentation, for any version",
+      "summary": "The Kanzi documentation for any version: guides, tutorials, best practices, and how things work",
       "acceptsVersionArgument": true,
       "userScoped": false,
       "displayName": "Kanzi Documentation MCP server"
@@ -18,7 +18,7 @@
       "path": "",
       "transport": "http",
       "auth": "none",
-      "summary": "The Kanzi API reference, for any version",
+      "summary": "The Kanzi API reference for any version: exact signatures, includes, type hierarchies, and version diffs",
       "acceptsVersionArgument": true,
       "userScoped": false,
       "displayName": "Kanzi API MCP server"
